@@ -1,10 +1,18 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
 <?php session_start(); ?>
+=======
+
+>>>>>>> 245569293a4cf7b45e16906ffee2e7eb682901c2
 <html>
 	<head>
 		
 		<!-- Website Title & Description for Search Engine purposes -->
+<<<<<<< HEAD
 		<title>Online Parikshya</title>
+=======
+		<title></title>
+>>>>>>> 245569293a4cf7b45e16906ffee2e7eb682901c2
 		<meta name="description" content="">
 		
 		<!-- Mobile viewport optimized -->
@@ -13,7 +21,10 @@
 		<!-- Bootstrap CSS -->
 		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+<<<<<<< HEAD
 		<link href="bootstrap/css/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen">
+=======
+>>>>>>> 245569293a4cf7b45e16906ffee2e7eb682901c2
 		
 		<!-- Custom CSS -->
 		<link href="includes/css/styles.css" rel="stylesheet">
@@ -35,7 +46,11 @@
 					<span class="icon-bar"></span>
 				</button>
 			
+<<<<<<< HEAD
 				<a class="navbar-brand" href="index.php"><img src="images/LLO.png" alt="Your Logo"> OnlineParikshya</a>
+=======
+				<a class="navbar-brand" href="/"><img src="images/LLO.png" alt="Your Logo"> OnlineParikshya</a>
+>>>>>>> 245569293a4cf7b45e16906ffee2e7eb682901c2
 				
 				<div class="nav-collapse collapse navbar-responsive-collapse">
 					<ul class="nav navbar-nav">
@@ -47,22 +62,35 @@
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <strong class="caret"></strong></a>
 							
 							<ul class="dropdown-menu">
+<<<<<<< HEAD
 								<li id="conductexam">
 									<a id="conductexam1" href="index.php">Conduct Exam</a>
 								</li>
 								
 								<li id="takeexam">
 									<a id="takeexam1" href="exam.php">Take Exam</a>
+=======
+								<li>
+									<a href="#">Web Design</a>
+								</li>
+								
+								<li>
+									<a href="#">Web Development</a>
+>>>>>>> 245569293a4cf7b45e16906ffee2e7eb682901c2
 								</li>
 								
 								
 							</ul><!-- end dropdown-menu -->
 						</li>
+<<<<<<< HEAD
 						
+=======
+>>>>>>> 245569293a4cf7b45e16906ffee2e7eb682901c2
 					</ul>
 					
 					
 					<ul class="nav navbar-nav pull-right">
+<<<<<<< HEAD
 						<li>
 							<a id = "signhome" href="signin.php">Sign in</a>
 						</li>
@@ -70,6 +98,9 @@
 							<a id= "signuphome" href="signup.php">Sign up</a>
 						</li>
 						<!--<li class="dropdown">
+=======
+						<li class="dropdown">
+>>>>>>> 245569293a4cf7b45e16906ffee2e7eb682901c2
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> My Account <strong class="caret"></strong></a>
 							
 							<ul class="dropdown-menu">
@@ -77,6 +108,16 @@
 									<a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a>
 								</li>
 								
+<<<<<<< HEAD
+=======
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-refresh"></span> Update Profile</a>
+								</li>
+								
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-briefcase"></span> Billing</a>
+								</li>
+>>>>>>> 245569293a4cf7b45e16906ffee2e7eb682901c2
 								
 								<li class="divider"></li>
 								
@@ -84,8 +125,12 @@
 									<a href="#"><span class="glyphicon glyphicon-off"></span> Sign out</a>
 								</li>
 							</ul>
+<<<<<<< HEAD
 						</li>-->
 
+=======
+						</li>
+>>>>>>> 245569293a4cf7b45e16906ffee2e7eb682901c2
 					</ul><!-- end nav pull-right -->
 				</div><!-- end nav-collapse -->
 			
@@ -96,6 +141,7 @@
 	</div><!-- end of main contianer -->
 
 	<div class="container" id="main">
+<<<<<<< HEAD
 		
 		<div class="row" id="partlogin">
 			<h1 id="orgentry"style="margin-left:60px;color:#0066ff;">Sign in</h1>
@@ -190,6 +236,8 @@
 
 		</div><!-- end of partconductor -->
 		
+=======
+>>>>>>> 245569293a4cf7b45e16906ffee2e7eb682901c2
 
 	</div>
 	
@@ -219,13 +267,19 @@
 	<script src="http://code.jquery.com/jquery.js"></script>
 	
 	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+<<<<<<< HEAD
 	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.3.min.js"><\/script>')</script>
 	<script type="text/javascript" src="includes/js/jquery-1.8.3.min.js" charset="UTF-8"></script>
+=======
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	
+>>>>>>> 245569293a4cf7b45e16906ffee2e7eb682901c2
 	<!-- Bootstrap JS -->
 	<script src="bootstrap/js/bootstrap.min.js"></script>
 	
 	<!-- Custom JS -->
 	<script src="includes/js/script.js"></script>
+<<<<<<< HEAD
 	<script type="text/javascript" src="bootstrap/js/bootstrap-datetimepicker.js" charset="UTF-8"></script>
 	<script type="text/javascript" src="bootstrap/js/locales/bootstrap-datetimepicker.fr.js" charset="UTF-8"></script>
 	<script type="text/javascript">
@@ -264,6 +318,9 @@
 	<p id="hiddenorg"><?php if($_SESSION['orgName']!="")
 				echo $_SESSION['orgName']; 
 		?></p>
+=======
+	
+>>>>>>> 245569293a4cf7b45e16906ffee2e7eb682901c2
 	</body>
 </html>
 
