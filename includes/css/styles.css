@@ -13,10 +13,11 @@ body{
    margin-top: 80px;
    background-color: #ffffff;
    width: 70%;
-   height: 800px;
+   //height: 800px;
 }
 footer{
    width: 70%;
+   margin-top: 20px;
    margin-left: auto;
    margin-right: auto;
    background-color: #ffffff;
@@ -27,13 +28,45 @@ ul.unstyled{
    list-style: none;
    padding: 0;
 }
+.bgcontainer {
+    background-color: #000000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding:30px;
+    height: 400px;
+}
+.prg{
+  height: 50px;
+  width: 50px;
+}
 
 /* --------------------------------------
-   Typography
+   SIgn in Sign up
    -------------------------------------- */
+#signingin{
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+}
+#signingin1{
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+}
 
-
-
+a:hover{
+  text-decoration: none;
+}
+.form-signup{
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+}
 /* --------------------------------------
    Navbar
    -------------------------------------- */
@@ -82,11 +115,21 @@ ul.unstyled{
     color: #555;
     background-color: #f0f0f0;
 }
+
+#hidden,#hiddenorg{
+  display:none;
+}
+
+#partconductor{
+  display: none;
+}
    
 /* --------------------------------------
-   Carousel
+   date and time
    -------------------------------------- */
-
+#partconductor{
+  margin-left: 50px;
+}
 
 
 /* --------------------------------------
