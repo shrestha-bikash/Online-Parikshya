@@ -1,0 +1,115 @@
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+body{
+   background-color: #f0f0f0;
+}
+.container{
+   width: 70%;
+}
+#main{
+   margin-top: 80px;
+   background-color: #ffffff;
+   width: 70%;
+   height: 800px;
+}
+footer{
+   width: 70%;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: #ffffff;
+   border-top: 1px solid #a0a0a0;
+   
+}
+ul.unstyled{
+   list-style: none;
+   padding: 0;
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+  .navbar{
+   background-color: #ffffff;
+   margin-left: auto;
+   margin-right: auto;
+   box-shadow: 0 1px 2px 0px #0066ff;
+  } 
+  .navbar-brand{
+   float: left;
+   padding: 0;
+   margin: 0;
+   margin-right: 30px;
+   color: #0066ff;
+  }
+  .navbar-brand:hover{
+   color: #0000ff;
+  }
+  .navbar-fixed-top{
+   position: fixed;
+   top: 0;
+  
+ }
+ .navbar-nav > li > a{
+   color: #303030;
+   background-color: transparent;
+   border-color: #cccccc;
+}
+
+.navbar-nav > li > a:hover{
+   color: #0066ff;
+   //color: #000000;
+   background-color: transparent;
+   border-color: #cccccc;
+}  
+.navbar .navbar-nav > .active > a, 
+.navbar .navbar-nav > .active > a:hover, 
+.navbar .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #f0f0f0;
+}
+.navbar .navbar-nav > .open > a, 
+.navbar .navbar-nav > .open > a:hover, 
+.navbar .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #f0f0f0;
+}
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}
